@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Lato:ital,wght@1,100&family=Poppins:wght@300;400&family=Public+Sans:wght@300;700&display=swap");
 
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-
 body {
   margin: 0;
   padding: 0;
@@ -20,16 +14,18 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  box-shadow: #242634;
 }
+
 .ul {
   display: flex;
   list-style: none;
 }
+/* top bottom -- right left */
+
 li {
   margin: 0 1rem;
-
   color: grey;
+  cursor: pointer;
 }
 
 button {
@@ -38,8 +34,6 @@ button {
   padding: 12px 20px;
   font-size: 14px;
   color: white;
-  justify-content: flex-end;
-  display: flex;
   border-style: none;
   cursor: pointer;
   font-weight: bold;
@@ -52,6 +46,7 @@ button {
   display: flex;
   margin-top: 30px;
 }
+
 .right,
 .left {
   width: 50%;
@@ -66,22 +61,24 @@ button {
 }
 
 .left p {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1.2em;
   line-height: 1.4em;
   font-weight: 200;
   color: gray;
   padding-right: 40px;
-  margin-top: 10px;
 }
+
 .right img {
   margin-left: 60px;
 }
+
 .why {
   margin-top: 0;
   background-color: #f3f4f6;
   height: 250px;
 }
+
 .why h1 {
   margin: 0;
   padding-top: 20px;
@@ -94,18 +91,16 @@ button {
   list-style: none;
   padding: 0;
 }
+
 h2 {
   font-weight: 500;
   color: #242634;
   margin: 0;
 }
+
 .ab {
   font-weight: lighter;
   font-size: 12px;
-}
-form {
-  display: flex;
-  flex-direction: column;
 }
 
 input,
@@ -118,10 +113,9 @@ textarea {
 
 .form-page {
   width: 700px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin: auto;
 }
+
 .submit {
   background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
   border-radius: 30px;
